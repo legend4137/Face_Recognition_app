@@ -1,14 +1,10 @@
 import streamlit as st
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.datasets import fetch_lfw_people
-from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score, precision_score, f1_score, recall_score, confusion_matrix
+from sklearn.metrics import accuracy_score, confusion_matrix
 import seaborn as sns
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
 from skimage.feature import hog
 from sklearn.svm import SVC
